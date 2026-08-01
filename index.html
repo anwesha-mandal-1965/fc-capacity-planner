@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E-commerce Fulfilment Center Capacity & Inventory Placement Planner">
+    <title>FC Capacity & Inventory Planner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+
+        <!-- Header -->
+        <header class="header animate-up" style="--delay: 0.05s">
+            <div class="header-content">
+                <div class="title-section">
+                    <p class="header-tag">Supply Chain Planning</p>
+                    <h1>FC Capacity & Inventory Planner</h1>
+                    <p class="subtitle">Fulfilment center capacity, stockout risk, and replenishment planning across BAU and peak-sale scenarios.</p>
+                </div>
+                <div class="scenario-toggle">
+                    <span class="toggle-label">Scenario</span>
+                    <div class="toggle-buttons">
+                        <button id="btn-bau" class="toggle-btn active">BAU</button>
+                        <button id="btn-bbd" class="toggle-btn">Big Billion Days</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- KPI Cards -->
+        <section class="kpi-row">
+            <div class="kpi-card card animate-up" style="--delay: 0.1s">
+                <div class="kpi-icon kpi-icon--blue">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                </div>
+                <div class="kpi-content">
+                    <p class="kpi-label">SKUs Tracked</p>
+                    <p class="kpi-value" id="kpi-skus">0</p>
+                </div>
+            </div>
+            <div class="kpi-card card animate-up" style="--delay: 0.15s">
+                <div class="kpi-icon kpi-icon--purple">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                </div>
+                <div class="kpi-content">
+                    <p class="kpi-label">Active FCs</p>
+                    <p class="kpi-value" id="kpi-fcs">0</p>
+                </div>
+            </div>
+            <div class="kpi-card card animate-up" style="--delay: 0.2s">
+                <div class="kpi-icon kpi-icon--green">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                </div>
+                <div class="kpi-content">
+                    <p class="kpi-label">Avg Fill Rate</p>
+                    <p class="kpi-value" id="kpi-fill-rate">0</p>
+                </div>
+            </div>
+            <div class="kpi-card card animate-up" style="--delay: 0.25s">
+                <div class="kpi-icon kpi-icon--amber">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                </div>
+                <div class="kpi-content">
+                    <p class="kpi-label">Stockout Alerts</p>
+                    <p class="kpi-value" id="kpi-alerts">0</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Error Message -->
+        <div id="error-message" class="error-message hidden">
+            Could not load data files. Please start a local server: <code>python -m http.server 8000</code>
+        </div>
+
+        <!-- Charts -->
+        <section class="charts-grid">
+            <div class="chart-card card animate-up" style="--delay: 0.3s">
+                <h2>Fulfilment Center Utilization</h2>
+                <div class="chart-container">
+                    <canvas id="fcUtilChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card card animate-up" style="--delay: 0.35s">
+                <h2>Daily Demand Forecast</h2>
+                <p class="chart-subtitle">90-day rolling demand — BAU baseline vs BBD peak surge</p>
+                <div class="chart-container">
+                    <canvas id="demandForecastChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card card animate-up" style="--delay: 0.4s">
+                <h2>Stockout Risk Matrix</h2>
+                <p class="chart-subtitle">Days of supply by category and FC — hover cells for details</p>
+                <div class="heatmap-container" id="heatmap-container"></div>
+            </div>
+            <div class="chart-card card animate-up" style="--delay: 0.45s">
+                <h2>Service Level Trade-offs</h2>
+                <p class="chart-subtitle">Comparing five key service dimensions across scenarios</p>
+                <div class="chart-container">
+                    <canvas id="radarChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Replenishment Table -->
+        <section class="table-section card animate-up" style="--delay: 0.5s">
+            <div class="table-header">
+                <div>
+                    <h2>Replenishment Recommendations</h2>
+                    <p class="table-subtitle" id="item-count">0 items</p>
+                </div>
+                <div class="table-controls">
+                    <input type="text" id="table-search" placeholder="Search by SKU, category, or FC...">
+                </div>
+            </div>
+            <div class="table-container">
+                <table id="replenishment-table">
+                    <thead>
+                        <tr>
+                            <th data-sort="sku">SKU ID <span></span></th>
+                            <th data-sort="name">SKU Name <span></span></th>
+                            <th data-sort="category">Category <span></span></th>
+                            <th data-sort="fc">FC <span></span></th>
+                            <th data-sort="stock">Current Stock <span></span></th>
+                            <th data-sort="demand">Daily Demand <span></span></th>
+                            <th data-sort="dos">Days of Supply <span></span></th>
+                            <th data-sort="reorder">Reorder Qty <span></span></th>
+                            <th data-sort="priority">Priority <span></span></th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Built with synthetic data for portfolio demonstration</p>
+            <p class="footer-name">Anwesha Mandal &middot; 2024</p>
+        </footer>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
