@@ -1,0 +1,44 @@
+[
+  {
+    "sku_id": "SKU006",
+    "sku_name": "Asus Vivobook",
+    "category": "Electronics",
+    "fc_id": "FC_HYD",
+    "fc_name": "Hyderabad FC",
+    "current_stock": 29,
+    "daily_demand_bau": 2.0,
+    "daily_demand_bbd": 12.6,
+    "days_of_supply": 14.7,
+    "reorder_qty": 12,
+    "priority": "Monitor",
+    "action": "Monitor Stock Levels"
+  },
+  {
+    "sku_id": "SKU009",
+    "sku_name": "OnePlus 12",
+    "category": "Electronics",
+    "fc_id": "FC_BLR",
+    "fc_name": "Bangalore FC",
+    "current_stock": 53,
+    "daily_demand_bau": 3.6,
+    "daily_demand_bbd": 20.0,
+    "days_of_supply": 14.9,
+    "reorder_qty": 21,
+    "priority": "Monitor",
+    "action": "Monitor Stock Levels"
+  },
+  {
+    "sku_id": "SKU040",
+    "sku_name": "Wonderchef Pan",
+    "category": "Home & Kitchen",
+    "fc_id": "FC_BLR",
+    "fc_name": "Bangalore FC",
+    "current_stock": 99,
+    "daily_demand_bau": 6.6,
+    "daily_demand_bbd": 21.6,
+    "days_of_supply": 14.9,
+    "reorder_qty": 40,
+    "priority": "Monitor",
+    "action": "Monitor Stock Levels"
+  }
+]

@@ -1,0 +1,156 @@
+{
+  "overall": {
+    "fill_rate_bau": 96.5,
+    "fill_rate_bbd": 82.3,
+    "same_day_pct_bau": 15.2,
+    "same_day_pct_bbd": 8.1,
+    "next_day_pct_bau": 45.3,
+    "next_day_pct_bbd": 32.7,
+    "standard_pct_bau": 39.5,
+    "standard_pct_bbd": 59.2,
+    "avg_delivery_days_bau": 2.1,
+    "avg_delivery_days_bbd": 3.4
+  },
+  "by_fc": [
+    {
+      "fc_id": "FC_MUM",
+      "name": "Mumbai FC",
+      "fill_rate_bau": 97.1,
+      "fill_rate_bbd": 85.7,
+      "metrics": {
+        "availability": {
+          "bau": 95,
+          "bbd": 85
+        },
+        "speed": {
+          "bau": 91,
+          "bbd": 75
+        },
+        "cost_efficiency": {
+          "bau": 80,
+          "bbd": 76
+        },
+        "capacity_headroom": {
+          "bau": 68,
+          "bbd": 51
+        },
+        "stockout_resilience": {
+          "bau": 87,
+          "bbd": 60
+        }
+      }
+    },
+    {
+      "fc_id": "FC_BLR",
+      "name": "Bangalore FC",
+      "fill_rate_bau": 96.6,
+      "fill_rate_bbd": 86.8,
+      "metrics": {
+        "availability": {
+          "bau": 97,
+          "bbd": 85
+        },
+        "speed": {
+          "bau": 93,
+          "bbd": 75
+        },
+        "cost_efficiency": {
+          "bau": 82,
+          "bbd": 78
+        },
+        "capacity_headroom": {
+          "bau": 65,
+          "bbd": 47
+        },
+        "stockout_resilience": {
+          "bau": 91,
+          "bbd": 60
+        }
+      }
+    },
+    {
+      "fc_id": "FC_DEL",
+      "name": "Delhi NCR FC",
+      "fill_rate_bau": 96.7,
+      "fill_rate_bbd": 86.4,
+      "metrics": {
+        "availability": {
+          "bau": 95,
+          "bbd": 85
+        },
+        "speed": {
+          "bau": 92,
+          "bbd": 75
+        },
+        "cost_efficiency": {
+          "bau": 85,
+          "bbd": 79
+        },
+        "capacity_headroom": {
+          "bau": 72,
+          "bbd": 57
+        },
+        "stockout_resilience": {
+          "bau": 93,
+          "bbd": 60
+        }
+      }
+    },
+    {
+      "fc_id": "FC_HYD",
+      "name": "Hyderabad FC",
+      "fill_rate_bau": 96.7,
+      "fill_rate_bbd": 86.0,
+      "metrics": {
+        "availability": {
+          "bau": 94,
+          "bbd": 85
+        },
+        "speed": {
+          "bau": 88,
+          "bbd": 75
+        },
+        "cost_efficiency": {
+          "bau": 90,
+          "bbd": 61
+        },
+        "capacity_headroom": {
+          "bau": 61,
+          "bbd": 38
+        },
+        "stockout_resilience": {
+          "bau": 91,
+          "bbd": 60
+        }
+      }
+    },
+    {
+      "fc_id": "FC_KOL",
+      "name": "Kolkata FC",
+      "fill_rate_bau": 96.5,
+      "fill_rate_bbd": 85.5,
+      "metrics": {
+        "availability": {
+          "bau": 94,
+          "bbd": 85
+        },
+        "speed": {
+          "bau": 93,
+          "bbd": 75
+        },
+        "cost_efficiency": {
+          "bau": 82,
+          "bbd": 71
+        },
+        "capacity_headroom": {
+          "bau": 56,
+          "bbd": 31
+        },
+        "stockout_resilience": {
+          "bau": 90,
+          "bbd": 60
+        }
+      }
+    }
+  ]
+}

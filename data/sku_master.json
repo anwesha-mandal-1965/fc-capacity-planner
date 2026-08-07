@@ -1,0 +1,502 @@
+[
+  {
+    "sku_id": "SKU001",
+    "name": "Samsung Galaxy M34",
+    "category": "Electronics",
+    "subcategory": "General",
+    "unit_cost": 15000,
+    "weight_kg": 0.4,
+    "volume_cubic_m": 0.001,
+    "avg_daily_demand": 30
+  },
+  {
+    "sku_id": "SKU002",
+    "name": "Redmi Note 13",
+    "category": "Electronics",
+    "subcategory": "General",
+    "unit_cost": 18000,
+    "weight_kg": 0.4,
+    "volume_cubic_m": 0.001,
+    "avg_daily_demand": 35
+  },
+  {
+    "sku_id": "SKU003",
+    "name": "Apple iPhone 15",
+    "category": "Electronics",
+    "subcategory": "General",
+    "unit_cost": 75000,
+    "weight_kg": 0.3,
+    "volume_cubic_m": 0.001,
+    "avg_daily_demand": 15
+  },
+  {
+    "sku_id": "SKU004",
+    "name": "Sony WH-1000XM5",
+    "category": "Electronics",
+    "subcategory": "General",
+    "unit_cost": 25000,
+    "weight_kg": 0.5,
+    "volume_cubic_m": 0.002,
+    "avg_daily_demand": 10
+  },
+  {
+    "sku_id": "SKU005",
+    "name": "JBL Flip 6",
+    "category": "Electronics",
+    "subcategory": "General",
+    "unit_cost": 8000,
+    "weight_kg": 0.6,
+    "volume_cubic_m": 0.002,
+    "avg_daily_demand": 25
+  },
+  {
+    "sku_id": "SKU006",
+    "name": "Asus Vivobook",
+    "category": "Electronics",
+    "subcategory": "General",
+    "unit_cost": 45000,
+    "weight_kg": 1.8,
+    "volume_cubic_m": 0.005,
+    "avg_daily_demand": 12
+  },
+  {
+    "sku_id": "SKU007",
+    "name": "MacBook Air M2",
+    "category": "Electronics",
+    "subcategory": "General",
+    "unit_cost": 95000,
+    "weight_kg": 1.2,
+    "volume_cubic_m": 0.004,
+    "avg_daily_demand": 8
+  },
+  {
+    "sku_id": "SKU008",
+    "name": "iPad Air",
+    "category": "Electronics",
+    "subcategory": "General",
+    "unit_cost": 55000,
+    "weight_kg": 0.5,
+    "volume_cubic_m": 0.002,
+    "avg_daily_demand": 18
+  },
+  {
+    "sku_id": "SKU009",
+    "name": "OnePlus 12",
+    "category": "Electronics",
+    "subcategory": "General",
+    "unit_cost": 65000,
+    "weight_kg": 0.4,
+    "volume_cubic_m": 0.001,
+    "avg_daily_demand": 20
+  },
+  {
+    "sku_id": "SKU010",
+    "name": "Samsung Galaxy Watch",
+    "category": "Electronics",
+    "subcategory": "General",
+    "unit_cost": 22000,
+    "weight_kg": 0.2,
+    "volume_cubic_m": 0.0005,
+    "avg_daily_demand": 15
+  },
+  {
+    "sku_id": "SKU011",
+    "name": "Whirlpool 7.5kg Washer",
+    "category": "Appliances",
+    "subcategory": "General",
+    "unit_cost": 18000,
+    "weight_kg": 35,
+    "volume_cubic_m": 0.2,
+    "avg_daily_demand": 8
+  },
+  {
+    "sku_id": "SKU012",
+    "name": "LG 1.5 Ton AC",
+    "category": "Appliances",
+    "subcategory": "General",
+    "unit_cost": 35000,
+    "weight_kg": 45,
+    "volume_cubic_m": 0.3,
+    "avg_daily_demand": 10
+  },
+  {
+    "sku_id": "SKU013",
+    "name": "Samsung 253L Fridge",
+    "category": "Appliances",
+    "subcategory": "General",
+    "unit_cost": 26000,
+    "weight_kg": 50,
+    "volume_cubic_m": 0.4,
+    "avg_daily_demand": 12
+  },
+  {
+    "sku_id": "SKU014",
+    "name": "Bosch Dishwasher",
+    "category": "Appliances",
+    "subcategory": "General",
+    "unit_cost": 40000,
+    "weight_kg": 40,
+    "volume_cubic_m": 0.3,
+    "avg_daily_demand": 5
+  },
+  {
+    "sku_id": "SKU015",
+    "name": "Dyson V11 Vacuum",
+    "category": "Appliances",
+    "subcategory": "General",
+    "unit_cost": 45000,
+    "weight_kg": 3,
+    "volume_cubic_m": 0.02,
+    "avg_daily_demand": 4
+  },
+  {
+    "sku_id": "SKU016",
+    "name": "Philips Air Fryer",
+    "category": "Appliances",
+    "subcategory": "General",
+    "unit_cost": 8000,
+    "weight_kg": 4,
+    "volume_cubic_m": 0.03,
+    "avg_daily_demand": 15
+  },
+  {
+    "sku_id": "SKU017",
+    "name": "Haier Microwave",
+    "category": "Appliances",
+    "subcategory": "General",
+    "unit_cost": 6000,
+    "weight_kg": 12,
+    "volume_cubic_m": 0.05,
+    "avg_daily_demand": 18
+  },
+  {
+    "sku_id": "SKU018",
+    "name": "Voltas 1 Ton AC",
+    "category": "Appliances",
+    "subcategory": "General",
+    "unit_cost": 28000,
+    "weight_kg": 40,
+    "volume_cubic_m": 0.25,
+    "avg_daily_demand": 12
+  },
+  {
+    "sku_id": "SKU019",
+    "name": "Sony 55 inch TV",
+    "category": "Appliances",
+    "subcategory": "General",
+    "unit_cost": 60000,
+    "weight_kg": 15,
+    "volume_cubic_m": 0.1,
+    "avg_daily_demand": 8
+  },
+  {
+    "sku_id": "SKU020",
+    "name": "LG 65 inch OLED",
+    "category": "Appliances",
+    "subcategory": "General",
+    "unit_cost": 120000,
+    "weight_kg": 20,
+    "volume_cubic_m": 0.15,
+    "avg_daily_demand": 4
+  },
+  {
+    "sku_id": "SKU021",
+    "name": "Nike Running Shoes",
+    "category": "Fashion",
+    "subcategory": "General",
+    "unit_cost": 4000,
+    "weight_kg": 0.8,
+    "volume_cubic_m": 0.005,
+    "avg_daily_demand": 40
+  },
+  {
+    "sku_id": "SKU022",
+    "name": "Puma T-Shirt",
+    "category": "Fashion",
+    "subcategory": "General",
+    "unit_cost": 800,
+    "weight_kg": 0.2,
+    "volume_cubic_m": 0.001,
+    "avg_daily_demand": 80
+  },
+  {
+    "sku_id": "SKU023",
+    "name": "Levis Jeans",
+    "category": "Fashion",
+    "subcategory": "General",
+    "unit_cost": 2500,
+    "weight_kg": 0.5,
+    "volume_cubic_m": 0.003,
+    "avg_daily_demand": 60
+  },
+  {
+    "sku_id": "SKU024",
+    "name": "Adidas Sneakers",
+    "category": "Fashion",
+    "subcategory": "General",
+    "unit_cost": 5000,
+    "weight_kg": 1.0,
+    "volume_cubic_m": 0.006,
+    "avg_daily_demand": 35
+  },
+  {
+    "sku_id": "SKU025",
+    "name": "H&M Hoodie",
+    "category": "Fashion",
+    "subcategory": "General",
+    "unit_cost": 1500,
+    "weight_kg": 0.4,
+    "volume_cubic_m": 0.004,
+    "avg_daily_demand": 50
+  },
+  {
+    "sku_id": "SKU026",
+    "name": "Zara Jacket",
+    "category": "Fashion",
+    "subcategory": "General",
+    "unit_cost": 4500,
+    "weight_kg": 0.7,
+    "volume_cubic_m": 0.005,
+    "avg_daily_demand": 30
+  },
+  {
+    "sku_id": "SKU027",
+    "name": "Tommy Hilfiger Shirt",
+    "category": "Fashion",
+    "subcategory": "General",
+    "unit_cost": 3000,
+    "weight_kg": 0.3,
+    "volume_cubic_m": 0.002,
+    "avg_daily_demand": 45
+  },
+  {
+    "sku_id": "SKU028",
+    "name": "Under Armour Shorts",
+    "category": "Fashion",
+    "subcategory": "General",
+    "unit_cost": 1200,
+    "weight_kg": 0.2,
+    "volume_cubic_m": 0.001,
+    "avg_daily_demand": 55
+  },
+  {
+    "sku_id": "SKU029",
+    "name": "Casio G-Shock",
+    "category": "Fashion",
+    "subcategory": "General",
+    "unit_cost": 8000,
+    "weight_kg": 0.1,
+    "volume_cubic_m": 0.0005,
+    "avg_daily_demand": 20
+  },
+  {
+    "sku_id": "SKU030",
+    "name": "Ray-Ban Aviator",
+    "category": "Fashion",
+    "subcategory": "General",
+    "unit_cost": 5500,
+    "weight_kg": 0.1,
+    "volume_cubic_m": 0.0005,
+    "avg_daily_demand": 25
+  },
+  {
+    "sku_id": "SKU031",
+    "name": "Pigeon Gas Stove",
+    "category": "Home & Kitchen",
+    "subcategory": "General",
+    "unit_cost": 2500,
+    "weight_kg": 3.5,
+    "volume_cubic_m": 0.015,
+    "avg_daily_demand": 25
+  },
+  {
+    "sku_id": "SKU032",
+    "name": "Prestige Cooker",
+    "category": "Home & Kitchen",
+    "subcategory": "General",
+    "unit_cost": 1500,
+    "weight_kg": 2.0,
+    "volume_cubic_m": 0.01,
+    "avg_daily_demand": 35
+  },
+  {
+    "sku_id": "SKU033",
+    "name": "Milton Thermos",
+    "category": "Home & Kitchen",
+    "subcategory": "General",
+    "unit_cost": 800,
+    "weight_kg": 0.5,
+    "volume_cubic_m": 0.003,
+    "avg_daily_demand": 40
+  },
+  {
+    "sku_id": "SKU034",
+    "name": "Bombay Dyeing Bedsheet",
+    "category": "Home & Kitchen",
+    "subcategory": "General",
+    "unit_cost": 1200,
+    "weight_kg": 0.8,
+    "volume_cubic_m": 0.005,
+    "avg_daily_demand": 50
+  },
+  {
+    "sku_id": "SKU035",
+    "name": "Wakefit Mattress",
+    "category": "Home & Kitchen",
+    "subcategory": "General",
+    "unit_cost": 12000,
+    "weight_kg": 25,
+    "volume_cubic_m": 0.4,
+    "avg_daily_demand": 10
+  },
+  {
+    "sku_id": "SKU036",
+    "name": "Ikea Study Table",
+    "category": "Home & Kitchen",
+    "subcategory": "General",
+    "unit_cost": 4500,
+    "weight_kg": 15,
+    "volume_cubic_m": 0.1,
+    "avg_daily_demand": 15
+  },
+  {
+    "sku_id": "SKU037",
+    "name": "Nilkamal Chair",
+    "category": "Home & Kitchen",
+    "subcategory": "General",
+    "unit_cost": 800,
+    "weight_kg": 3,
+    "volume_cubic_m": 0.05,
+    "avg_daily_demand": 30
+  },
+  {
+    "sku_id": "SKU038",
+    "name": "Tupperware Set",
+    "category": "Home & Kitchen",
+    "subcategory": "General",
+    "unit_cost": 1500,
+    "weight_kg": 1.0,
+    "volume_cubic_m": 0.008,
+    "avg_daily_demand": 45
+  },
+  {
+    "sku_id": "SKU039",
+    "name": "Bajaj Mixer",
+    "category": "Home & Kitchen",
+    "subcategory": "General",
+    "unit_cost": 2800,
+    "weight_kg": 4,
+    "volume_cubic_m": 0.02,
+    "avg_daily_demand": 28
+  },
+  {
+    "sku_id": "SKU040",
+    "name": "Wonderchef Pan",
+    "category": "Home & Kitchen",
+    "subcategory": "General",
+    "unit_cost": 1200,
+    "weight_kg": 1.2,
+    "volume_cubic_m": 0.006,
+    "avg_daily_demand": 35
+  },
+  {
+    "sku_id": "SKU041",
+    "name": "Aashirvaad Atta 5kg",
+    "category": "Grocery",
+    "subcategory": "General",
+    "unit_cost": 250,
+    "weight_kg": 5,
+    "volume_cubic_m": 0.005,
+    "avg_daily_demand": 150
+  },
+  {
+    "sku_id": "SKU042",
+    "name": "India Gate Basmati 5kg",
+    "category": "Grocery",
+    "subcategory": "General",
+    "unit_cost": 500,
+    "weight_kg": 5,
+    "volume_cubic_m": 0.005,
+    "avg_daily_demand": 120
+  },
+  {
+    "sku_id": "SKU043",
+    "name": "Tata Salt 1kg",
+    "category": "Grocery",
+    "subcategory": "General",
+    "unit_cost": 25,
+    "weight_kg": 1,
+    "volume_cubic_m": 0.001,
+    "avg_daily_demand": 200
+  },
+  {
+    "sku_id": "SKU044",
+    "name": "Fortune Sunflower Oil 1L",
+    "category": "Grocery",
+    "subcategory": "General",
+    "unit_cost": 150,
+    "weight_kg": 1,
+    "volume_cubic_m": 0.001,
+    "avg_daily_demand": 180
+  },
+  {
+    "sku_id": "SKU045",
+    "name": "Maggi Noodles",
+    "category": "Grocery",
+    "subcategory": "General",
+    "unit_cost": 140,
+    "weight_kg": 0.5,
+    "volume_cubic_m": 0.002,
+    "avg_daily_demand": 250
+  },
+  {
+    "sku_id": "SKU046",
+    "name": "Brooke Bond Taj Mahal",
+    "category": "Grocery",
+    "subcategory": "General",
+    "unit_cost": 450,
+    "weight_kg": 0.5,
+    "volume_cubic_m": 0.001,
+    "avg_daily_demand": 140
+  },
+  {
+    "sku_id": "SKU047",
+    "name": "Amul Butter 500g",
+    "category": "Grocery",
+    "subcategory": "General",
+    "unit_cost": 260,
+    "weight_kg": 0.5,
+    "volume_cubic_m": 0.0005,
+    "avg_daily_demand": 160
+  },
+  {
+    "sku_id": "SKU048",
+    "name": "Kelloggs Corn Flakes",
+    "category": "Grocery",
+    "subcategory": "General",
+    "unit_cost": 300,
+    "weight_kg": 0.4,
+    "volume_cubic_m": 0.003,
+    "avg_daily_demand": 110
+  },
+  {
+    "sku_id": "SKU049",
+    "name": "Surf Excel 3kg",
+    "category": "Grocery",
+    "subcategory": "General",
+    "unit_cost": 450,
+    "weight_kg": 3,
+    "volume_cubic_m": 0.004,
+    "avg_daily_demand": 130
+  },
+  {
+    "sku_id": "SKU050",
+    "name": "Colgate Toothpaste",
+    "category": "Grocery",
+    "subcategory": "General",
+    "unit_cost": 110,
+    "weight_kg": 0.2,
+    "volume_cubic_m": 0.0005,
+    "avg_daily_demand": 190
+  }
+]

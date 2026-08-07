@@ -1,0 +1,352 @@
+{
+  "SKU001": {
+    "FC_MUM": 128,
+    "FC_BLR": 110,
+    "FC_DEL": 110,
+    "FC_HYD": 131,
+    "FC_KOL": 108
+  },
+  "SKU002": {
+    "FC_MUM": 155,
+    "FC_BLR": 154,
+    "FC_DEL": 105,
+    "FC_HYD": 128,
+    "FC_KOL": 139
+  },
+  "SKU003": {
+    "FC_MUM": 53,
+    "FC_BLR": 58,
+    "FC_DEL": 48,
+    "FC_HYD": 50,
+    "FC_KOL": 53
+  },
+  "SKU004": {
+    "FC_MUM": 34,
+    "FC_BLR": 24,
+    "FC_DEL": 30,
+    "FC_HYD": 33,
+    "FC_KOL": 35
+  },
+  "SKU005": {
+    "FC_MUM": 92,
+    "FC_BLR": 112,
+    "FC_DEL": 76,
+    "FC_HYD": 74,
+    "FC_KOL": 86
+  },
+  "SKU006": {
+    "FC_MUM": 45,
+    "FC_BLR": 39,
+    "FC_DEL": 41,
+    "FC_HYD": 29,
+    "FC_KOL": 43
+  },
+  "SKU007": {
+    "FC_MUM": 24,
+    "FC_BLR": 23,
+    "FC_DEL": 16,
+    "FC_HYD": 21,
+    "FC_KOL": 24
+  },
+  "SKU008": {
+    "FC_MUM": 68,
+    "FC_BLR": 64,
+    "FC_DEL": 65,
+    "FC_HYD": 66,
+    "FC_KOL": 67
+  },
+  "SKU009": {
+    "FC_MUM": 105,
+    "FC_BLR": 53,
+    "FC_DEL": 62,
+    "FC_HYD": 74,
+    "FC_KOL": 77
+  },
+  "SKU010": {
+    "FC_MUM": 63,
+    "FC_BLR": 40,
+    "FC_DEL": 44,
+    "FC_HYD": 51,
+    "FC_KOL": 52
+  },
+  "SKU011": {
+    "FC_MUM": 17,
+    "FC_BLR": 18,
+    "FC_DEL": 30,
+    "FC_HYD": 21,
+    "FC_KOL": 18
+  },
+  "SKU012": {
+    "FC_MUM": 28,
+    "FC_BLR": 25,
+    "FC_DEL": 44,
+    "FC_HYD": 38,
+    "FC_KOL": 31
+  },
+  "SKU013": {
+    "FC_MUM": 34,
+    "FC_BLR": 47,
+    "FC_DEL": 63,
+    "FC_HYD": 46,
+    "FC_KOL": 35
+  },
+  "SKU014": {
+    "FC_MUM": 10,
+    "FC_BLR": 8,
+    "FC_DEL": 19,
+    "FC_HYD": 9,
+    "FC_KOL": 9
+  },
+  "SKU015": {
+    "FC_MUM": 1,
+    "FC_BLR": 1,
+    "FC_DEL": 14,
+    "FC_HYD": 1,
+    "FC_KOL": 3
+  },
+  "SKU016": {
+    "FC_MUM": 59,
+    "FC_BLR": 57,
+    "FC_DEL": 62,
+    "FC_HYD": 42,
+    "FC_KOL": 52
+  },
+  "SKU017": {
+    "FC_MUM": 48,
+    "FC_BLR": 49,
+    "FC_DEL": 103,
+    "FC_HYD": 60,
+    "FC_KOL": 48
+  },
+  "SKU018": {
+    "FC_MUM": 44,
+    "FC_BLR": 33,
+    "FC_DEL": 40,
+    "FC_HYD": 43,
+    "FC_KOL": 32
+  },
+  "SKU019": {
+    "FC_MUM": 19,
+    "FC_BLR": 24,
+    "FC_DEL": 27,
+    "FC_HYD": 26,
+    "FC_KOL": 21
+  },
+  "SKU020": {
+    "FC_MUM": 3,
+    "FC_BLR": 1,
+    "FC_DEL": 11,
+    "FC_HYD": 1,
+    "FC_KOL": 3
+  },
+  "SKU021": {
+    "FC_MUM": 110,
+    "FC_BLR": 148,
+    "FC_DEL": 130,
+    "FC_HYD": 121,
+    "FC_KOL": 164
+  },
+  "SKU022": {
+    "FC_MUM": 256,
+    "FC_BLR": 399,
+    "FC_DEL": 232,
+    "FC_HYD": 315,
+    "FC_KOL": 362
+  },
+  "SKU023": {
+    "FC_MUM": 175,
+    "FC_BLR": 244,
+    "FC_DEL": 240,
+    "FC_HYD": 276,
+    "FC_KOL": 226
+  },
+  "SKU024": {
+    "FC_MUM": 137,
+    "FC_BLR": 143,
+    "FC_DEL": 165,
+    "FC_HYD": 109,
+    "FC_KOL": 156
+  },
+  "SKU025": {
+    "FC_MUM": 184,
+    "FC_BLR": 193,
+    "FC_DEL": 152,
+    "FC_HYD": 203,
+    "FC_KOL": 178
+  },
+  "SKU026": {
+    "FC_MUM": 135,
+    "FC_BLR": 101,
+    "FC_DEL": 131,
+    "FC_HYD": 115,
+    "FC_KOL": 82
+  },
+  "SKU027": {
+    "FC_MUM": 143,
+    "FC_BLR": 181,
+    "FC_DEL": 142,
+    "FC_HYD": 169,
+    "FC_KOL": 190
+  },
+  "SKU028": {
+    "FC_MUM": 175,
+    "FC_BLR": 272,
+    "FC_DEL": 212,
+    "FC_HYD": 188,
+    "FC_KOL": 206
+  },
+  "SKU029": {
+    "FC_MUM": 82,
+    "FC_BLR": 88,
+    "FC_DEL": 87,
+    "FC_HYD": 77,
+    "FC_KOL": 62
+  },
+  "SKU030": {
+    "FC_MUM": 107,
+    "FC_BLR": 123,
+    "FC_DEL": 101,
+    "FC_HYD": 103,
+    "FC_KOL": 80
+  },
+  "SKU031": {
+    "FC_MUM": 109,
+    "FC_BLR": 111,
+    "FC_DEL": 81,
+    "FC_HYD": 84,
+    "FC_KOL": 103
+  },
+  "SKU032": {
+    "FC_MUM": 134,
+    "FC_BLR": 102,
+    "FC_DEL": 115,
+    "FC_HYD": 161,
+    "FC_KOL": 150
+  },
+  "SKU033": {
+    "FC_MUM": 139,
+    "FC_BLR": 131,
+    "FC_DEL": 183,
+    "FC_HYD": 133,
+    "FC_KOL": 134
+  },
+  "SKU034": {
+    "FC_MUM": 147,
+    "FC_BLR": 178,
+    "FC_DEL": 180,
+    "FC_HYD": 182,
+    "FC_KOL": 197
+  },
+  "SKU035": {
+    "FC_MUM": 35,
+    "FC_BLR": 27,
+    "FC_DEL": 36,
+    "FC_HYD": 24,
+    "FC_KOL": 34
+  },
+  "SKU036": {
+    "FC_MUM": 42,
+    "FC_BLR": 42,
+    "FC_DEL": 45,
+    "FC_HYD": 58,
+    "FC_KOL": 43
+  },
+  "SKU037": {
+    "FC_MUM": 134,
+    "FC_BLR": 104,
+    "FC_DEL": 115,
+    "FC_HYD": 110,
+    "FC_KOL": 92
+  },
+  "SKU038": {
+    "FC_MUM": 165,
+    "FC_BLR": 166,
+    "FC_DEL": 164,
+    "FC_HYD": 154,
+    "FC_KOL": 157
+  },
+  "SKU039": {
+    "FC_MUM": 90,
+    "FC_BLR": 83,
+    "FC_DEL": 118,
+    "FC_HYD": 115,
+    "FC_KOL": 96
+  },
+  "SKU040": {
+    "FC_MUM": 129,
+    "FC_BLR": 99,
+    "FC_DEL": 134,
+    "FC_HYD": 130,
+    "FC_KOL": 111
+  },
+  "SKU041": {
+    "FC_MUM": 682,
+    "FC_BLR": 646,
+    "FC_DEL": 686,
+    "FC_HYD": 636,
+    "FC_KOL": 507
+  },
+  "SKU042": {
+    "FC_MUM": 556,
+    "FC_BLR": 407,
+    "FC_DEL": 409,
+    "FC_HYD": 598,
+    "FC_KOL": 457
+  },
+  "SKU043": {
+    "FC_MUM": 825,
+    "FC_BLR": 751,
+    "FC_DEL": 824,
+    "FC_HYD": 735,
+    "FC_KOL": 910
+  },
+  "SKU044": {
+    "FC_MUM": 843,
+    "FC_BLR": 644,
+    "FC_DEL": 553,
+    "FC_HYD": 870,
+    "FC_KOL": 538
+  },
+  "SKU045": {
+    "FC_MUM": 878,
+    "FC_BLR": 887,
+    "FC_DEL": 979,
+    "FC_HYD": 1098,
+    "FC_KOL": 761
+  },
+  "SKU046": {
+    "FC_MUM": 540,
+    "FC_BLR": 484,
+    "FC_DEL": 628,
+    "FC_HYD": 617,
+    "FC_KOL": 611
+  },
+  "SKU047": {
+    "FC_MUM": 633,
+    "FC_BLR": 664,
+    "FC_DEL": 615,
+    "FC_HYD": 757,
+    "FC_KOL": 647
+  },
+  "SKU048": {
+    "FC_MUM": 363,
+    "FC_BLR": 526,
+    "FC_DEL": 383,
+    "FC_HYD": 477,
+    "FC_KOL": 518
+  },
+  "SKU049": {
+    "FC_MUM": 561,
+    "FC_BLR": 622,
+    "FC_DEL": 376,
+    "FC_HYD": 534,
+    "FC_KOL": 389
+  },
+  "SKU050": {
+    "FC_MUM": 741,
+    "FC_BLR": 690,
+    "FC_DEL": 922,
+    "FC_HYD": 598,
+    "FC_KOL": 582
+  }
+}

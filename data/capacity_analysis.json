@@ -1,0 +1,49 @@
+{
+  "fc_utilization": [
+    {
+      "fc_id": "FC_MUM",
+      "name": "Mumbai FC",
+      "bau_utilization_pct": 31.4,
+      "bbd_utilization_pct": 49.0,
+      "bau_throughput_pct": 10.5,
+      "bbd_throughput_pct": 33.5,
+      "capacity_gap_bbd": 0
+    },
+    {
+      "fc_id": "FC_BLR",
+      "name": "Bangalore FC",
+      "bau_utilization_pct": 35.0,
+      "bbd_utilization_pct": 52.6,
+      "bau_throughput_pct": 11.7,
+      "bbd_throughput_pct": 36.5,
+      "capacity_gap_bbd": 0
+    },
+    {
+      "fc_id": "FC_DEL",
+      "name": "Delhi NCR FC",
+      "bau_utilization_pct": 28.0,
+      "bbd_utilization_pct": 42.3,
+      "bau_throughput_pct": 8.5,
+      "bbd_throughput_pct": 26.7,
+      "capacity_gap_bbd": 0
+    },
+    {
+      "fc_id": "FC_HYD",
+      "name": "Hyderabad FC",
+      "bau_utilization_pct": 38.2,
+      "bbd_utilization_pct": 61.1,
+      "bau_throughput_pct": 12.7,
+      "bbd_throughput_pct": 43.6,
+      "capacity_gap_bbd": 0
+    },
+    {
+      "fc_id": "FC_KOL",
+      "name": "Kolkata FC",
+      "bau_utilization_pct": 43.8,
+      "bbd_utilization_pct": 68.5,
+      "bau_throughput_pct": 14.6,
+      "bbd_throughput_pct": 47.9,
+      "capacity_gap_bbd": 0
+    }
+  ]
+}

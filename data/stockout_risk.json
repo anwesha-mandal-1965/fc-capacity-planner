@@ -1,0 +1,254 @@
+{
+  "matrix": [
+    {
+      "category": "Electronics",
+      "fc_id": "FC_MUM",
+      "fc_name": "Mumbai FC",
+      "risk_score": 0.79,
+      "risk_level": "High",
+      "days_of_supply_bau": 19.0,
+      "days_of_supply_bbd": 2.9,
+      "affected_skus": 0
+    },
+    {
+      "category": "Electronics",
+      "fc_id": "FC_BLR",
+      "fc_name": "Bangalore FC",
+      "risk_score": 0.77,
+      "risk_level": "High",
+      "days_of_supply_bau": 20.5,
+      "days_of_supply_bbd": 3.2,
+      "affected_skus": 0
+    },
+    {
+      "category": "Electronics",
+      "fc_id": "FC_DEL",
+      "fc_name": "Delhi NCR FC",
+      "risk_score": 0.8,
+      "risk_level": "High",
+      "days_of_supply_bau": 18.4,
+      "days_of_supply_bbd": 2.8,
+      "affected_skus": 0
+    },
+    {
+      "category": "Electronics",
+      "fc_id": "FC_HYD",
+      "fc_name": "Hyderabad FC",
+      "risk_score": 0.79,
+      "risk_level": "High",
+      "days_of_supply_bau": 20.3,
+      "days_of_supply_bbd": 3.0,
+      "affected_skus": 0
+    },
+    {
+      "category": "Electronics",
+      "fc_id": "FC_KOL",
+      "fc_name": "Kolkata FC",
+      "risk_score": 0.78,
+      "risk_level": "High",
+      "days_of_supply_bau": 21.3,
+      "days_of_supply_bbd": 3.1,
+      "affected_skus": 0
+    },
+    {
+      "category": "Grocery",
+      "fc_id": "FC_MUM",
+      "fc_name": "Mumbai FC",
+      "risk_score": 0.41,
+      "risk_level": "Medium",
+      "days_of_supply_bau": 20.2,
+      "days_of_supply_bbd": 8.2,
+      "affected_skus": 0
+    },
+    {
+      "category": "Grocery",
+      "fc_id": "FC_BLR",
+      "fc_name": "Bangalore FC",
+      "risk_score": 0.4,
+      "risk_level": "Medium",
+      "days_of_supply_bau": 19.7,
+      "days_of_supply_bbd": 8.4,
+      "affected_skus": 0
+    },
+    {
+      "category": "Grocery",
+      "fc_id": "FC_DEL",
+      "fc_name": "Delhi NCR FC",
+      "risk_score": 0.4,
+      "risk_level": "Medium",
+      "days_of_supply_bau": 19.9,
+      "days_of_supply_bbd": 8.4,
+      "affected_skus": 0
+    },
+    {
+      "category": "Grocery",
+      "fc_id": "FC_HYD",
+      "fc_name": "Hyderabad FC",
+      "risk_score": 0.4,
+      "risk_level": "Medium",
+      "days_of_supply_bau": 21.5,
+      "days_of_supply_bbd": 8.5,
+      "affected_skus": 0
+    },
+    {
+      "category": "Grocery",
+      "fc_id": "FC_KOL",
+      "fc_name": "Kolkata FC",
+      "risk_score": 0.46,
+      "risk_level": "Medium",
+      "days_of_supply_bau": 18.3,
+      "days_of_supply_bbd": 7.6,
+      "affected_skus": 0
+    },
+    {
+      "category": "Appliances",
+      "fc_id": "FC_MUM",
+      "fc_name": "Mumbai FC",
+      "risk_score": 0.67,
+      "risk_level": "High",
+      "days_of_supply_bau": 19.3,
+      "days_of_supply_bbd": 4.6,
+      "affected_skus": 0
+    },
+    {
+      "category": "Appliances",
+      "fc_id": "FC_BLR",
+      "fc_name": "Bangalore FC",
+      "risk_score": 0.67,
+      "risk_level": "High",
+      "days_of_supply_bau": 19.3,
+      "days_of_supply_bbd": 4.6,
+      "affected_skus": 0
+    },
+    {
+      "category": "Appliances",
+      "fc_id": "FC_DEL",
+      "fc_name": "Delhi NCR FC",
+      "risk_score": 0.69,
+      "risk_level": "High",
+      "days_of_supply_bau": 20.6,
+      "days_of_supply_bbd": 4.4,
+      "affected_skus": 0
+    },
+    {
+      "category": "Appliances",
+      "fc_id": "FC_HYD",
+      "fc_name": "Hyderabad FC",
+      "risk_score": 0.73,
+      "risk_level": "High",
+      "days_of_supply_bau": 20.6,
+      "days_of_supply_bbd": 3.8,
+      "affected_skus": 0
+    },
+    {
+      "category": "Appliances",
+      "fc_id": "FC_KOL",
+      "fc_name": "Kolkata FC",
+      "risk_score": 0.75,
+      "risk_level": "High",
+      "days_of_supply_bau": 17.9,
+      "days_of_supply_bbd": 3.4,
+      "affected_skus": 0
+    },
+    {
+      "category": "Fashion",
+      "fc_id": "FC_MUM",
+      "fc_name": "Mumbai FC",
+      "risk_score": 0.67,
+      "risk_level": "High",
+      "days_of_supply_bau": 18.0,
+      "days_of_supply_bbd": 4.7,
+      "affected_skus": 0
+    },
+    {
+      "category": "Fashion",
+      "fc_id": "FC_BLR",
+      "fc_name": "Bangalore FC",
+      "risk_score": 0.65,
+      "risk_level": "High",
+      "days_of_supply_bau": 19.0,
+      "days_of_supply_bbd": 4.9,
+      "affected_skus": 0
+    },
+    {
+      "category": "Fashion",
+      "fc_id": "FC_DEL",
+      "fc_name": "Delhi NCR FC",
+      "risk_score": 0.62,
+      "risk_level": "High",
+      "days_of_supply_bau": 19.4,
+      "days_of_supply_bbd": 5.3,
+      "affected_skus": 0
+    },
+    {
+      "category": "Fashion",
+      "fc_id": "FC_HYD",
+      "fc_name": "Hyderabad FC",
+      "risk_score": 0.65,
+      "risk_level": "High",
+      "days_of_supply_bau": 20.1,
+      "days_of_supply_bbd": 4.9,
+      "affected_skus": 0
+    },
+    {
+      "category": "Fashion",
+      "fc_id": "FC_KOL",
+      "fc_name": "Kolkata FC",
+      "risk_score": 0.64,
+      "risk_level": "High",
+      "days_of_supply_bau": 20.5,
+      "days_of_supply_bbd": 5.0,
+      "affected_skus": 0
+    },
+    {
+      "category": "Home & Kitchen",
+      "fc_id": "FC_MUM",
+      "fc_name": "Mumbai FC",
+      "risk_score": 0.56,
+      "risk_level": "Medium",
+      "days_of_supply_bau": 19.5,
+      "days_of_supply_bbd": 6.1,
+      "affected_skus": 0
+    },
+    {
+      "category": "Home & Kitchen",
+      "fc_id": "FC_BLR",
+      "fc_name": "Bangalore FC",
+      "risk_score": 0.55,
+      "risk_level": "Medium",
+      "days_of_supply_bau": 18.1,
+      "days_of_supply_bbd": 6.4,
+      "affected_skus": 0
+    },
+    {
+      "category": "Home & Kitchen",
+      "fc_id": "FC_DEL",
+      "fc_name": "Delhi NCR FC",
+      "risk_score": 0.53,
+      "risk_level": "Medium",
+      "days_of_supply_bau": 20.4,
+      "days_of_supply_bbd": 6.5,
+      "affected_skus": 0
+    },
+    {
+      "category": "Home & Kitchen",
+      "fc_id": "FC_HYD",
+      "fc_name": "Hyderabad FC",
+      "risk_score": 0.53,
+      "risk_level": "Medium",
+      "days_of_supply_bau": 20.2,
+      "days_of_supply_bbd": 6.6,
+      "affected_skus": 0
+    },
+    {
+      "category": "Home & Kitchen",
+      "fc_id": "FC_KOL",
+      "fc_name": "Kolkata FC",
+      "risk_score": 0.57,
+      "risk_level": "Medium",
+      "days_of_supply_bau": 19.3,
+      "days_of_supply_bbd": 6.0,
+      "affected_skus": 0
+    }
+  ]
+}

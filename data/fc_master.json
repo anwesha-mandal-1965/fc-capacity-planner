@@ -1,0 +1,42 @@
+[
+  {
+    "fc_id": "FC_MUM",
+    "name": "Mumbai FC",
+    "city": "Mumbai",
+    "region": "West",
+    "storage_capacity": 50000,
+    "daily_throughput": 5000
+  },
+  {
+    "fc_id": "FC_BLR",
+    "name": "Bangalore FC",
+    "city": "Bangalore",
+    "region": "South",
+    "storage_capacity": 45000,
+    "daily_throughput": 4500
+  },
+  {
+    "fc_id": "FC_DEL",
+    "name": "Delhi NCR FC",
+    "city": "Delhi",
+    "region": "North",
+    "storage_capacity": 55000,
+    "daily_throughput": 6000
+  },
+  {
+    "fc_id": "FC_HYD",
+    "name": "Hyderabad FC",
+    "city": "Hyderabad",
+    "region": "South",
+    "storage_capacity": 40000,
+    "daily_throughput": 4000
+  },
+  {
+    "fc_id": "FC_KOL",
+    "name": "Kolkata FC",
+    "city": "Kolkata",
+    "region": "East",
+    "storage_capacity": 35000,
+    "daily_throughput": 3500
+  }
+]
