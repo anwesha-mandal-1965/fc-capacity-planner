@@ -1,0 +1,51 @@
+SKU_ID,SKU_Name,Category,FC_MUM_Allocation,FC_BLR_Allocation,FC_DEL_Allocation,FC_HYD_Allocation,FC_KOL_Allocation,Total
+SKU001,Samsung Galaxy M34,Electronics,128,110,110,131,108,587
+SKU002,Redmi Note 13,Electronics,155,154,105,128,139,681
+SKU003,Apple iPhone 15,Electronics,53,58,48,50,53,262
+SKU004,Sony WH-1000XM5,Electronics,34,24,30,33,35,156
+SKU005,JBL Flip 6,Electronics,92,112,76,74,86,440
+SKU006,Asus Vivobook,Electronics,45,39,41,29,43,197
+SKU007,MacBook Air M2,Electronics,24,23,16,21,24,108
+SKU008,iPad Air,Electronics,68,64,65,66,67,330
+SKU009,OnePlus 12,Electronics,105,53,62,74,77,371
+SKU010,Samsung Galaxy Watch,Electronics,63,40,44,51,52,250
+SKU011,Whirlpool 7.5kg Washer,Appliances,17,18,30,21,18,104
+SKU012,LG 1.5 Ton AC,Appliances,28,25,44,38,31,166
+SKU013,Samsung 253L Fridge,Appliances,34,47,63,46,35,225
+SKU014,Bosch Dishwasher,Appliances,10,8,19,9,9,55
+SKU015,Dyson V11 Vacuum,Appliances,1,1,14,1,3,20
+SKU016,Philips Air Fryer,Appliances,59,57,62,42,52,272
+SKU017,Haier Microwave,Appliances,48,49,103,60,48,308
+SKU018,Voltas 1 Ton AC,Appliances,44,33,40,43,32,192
+SKU019,Sony 55 inch TV,Appliances,19,24,27,26,21,117
+SKU020,LG 65 inch OLED,Appliances,3,1,11,1,3,19
+SKU021,Nike Running Shoes,Fashion,110,148,130,121,164,673
+SKU022,Puma T-Shirt,Fashion,256,399,232,315,362,1564
+SKU023,Levis Jeans,Fashion,175,244,240,276,226,1161
+SKU024,Adidas Sneakers,Fashion,137,143,165,109,156,710
+SKU025,H&M Hoodie,Fashion,184,193,152,203,178,910
+SKU026,Zara Jacket,Fashion,135,101,131,115,82,564
+SKU027,Tommy Hilfiger Shirt,Fashion,143,181,142,169,190,825
+SKU028,Under Armour Shorts,Fashion,175,272,212,188,206,1053
+SKU029,Casio G-Shock,Fashion,82,88,87,77,62,396
+SKU030,Ray-Ban Aviator,Fashion,107,123,101,103,80,514
+SKU031,Pigeon Gas Stove,Home & Kitchen,109,111,81,84,103,488
+SKU032,Prestige Cooker,Home & Kitchen,134,102,115,161,150,662
+SKU033,Milton Thermos,Home & Kitchen,139,131,183,133,134,720
+SKU034,Bombay Dyeing Bedsheet,Home & Kitchen,147,178,180,182,197,884
+SKU035,Wakefit Mattress,Home & Kitchen,35,27,36,24,34,156
+SKU036,Ikea Study Table,Home & Kitchen,42,42,45,58,43,230
+SKU037,Nilkamal Chair,Home & Kitchen,134,104,115,110,92,555
+SKU038,Tupperware Set,Home & Kitchen,165,166,164,154,157,806
+SKU039,Bajaj Mixer,Home & Kitchen,90,83,118,115,96,502
+SKU040,Wonderchef Pan,Home & Kitchen,129,99,134,130,111,603
+SKU041,Aashirvaad Atta 5kg,Grocery,682,646,686,636,507,3157
+SKU042,India Gate Basmati 5kg,Grocery,556,407,409,598,457,2427
+SKU043,Tata Salt 1kg,Grocery,825,751,824,735,910,4045
+SKU044,Fortune Sunflower Oil 1L,Grocery,843,644,553,870,538,3448
+SKU045,Maggi Noodles,Grocery,878,887,979,1098,761,4603
+SKU046,Brooke Bond Taj Mahal,Grocery,540,484,628,617,611,2880
+SKU047,Amul Butter 500g,Grocery,633,664,615,757,647,3316
+SKU048,Kelloggs Corn Flakes,Grocery,363,526,383,477,518,2267
+SKU049,Surf Excel 3kg,Grocery,561,622,376,534,389,2482
+SKU050,Colgate Toothpaste,Grocery,741,690,922,598,582,3533

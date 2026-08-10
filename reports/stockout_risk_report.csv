@@ -1,0 +1,26 @@
+Category,FC_ID,FC_Name,Risk_Score,Risk_Level,Days_Supply_BAU,Days_Supply_BBD,Affected_SKUs
+Electronics,FC_MUM,Mumbai FC,0.79,High,19.0,2.9,0
+Electronics,FC_BLR,Bangalore FC,0.77,High,20.5,3.2,0
+Electronics,FC_DEL,Delhi NCR FC,0.8,High,18.4,2.8,0
+Electronics,FC_HYD,Hyderabad FC,0.79,High,20.3,3.0,0
+Electronics,FC_KOL,Kolkata FC,0.78,High,21.3,3.1,0
+Grocery,FC_MUM,Mumbai FC,0.41,Medium,20.2,8.2,0
+Grocery,FC_BLR,Bangalore FC,0.4,Medium,19.7,8.4,0
+Grocery,FC_DEL,Delhi NCR FC,0.4,Medium,19.9,8.4,0
+Grocery,FC_HYD,Hyderabad FC,0.4,Medium,21.5,8.5,0
+Grocery,FC_KOL,Kolkata FC,0.46,Medium,18.3,7.6,0
+Appliances,FC_MUM,Mumbai FC,0.67,High,19.3,4.6,0
+Appliances,FC_BLR,Bangalore FC,0.67,High,19.3,4.6,0
+Appliances,FC_DEL,Delhi NCR FC,0.69,High,20.6,4.4,0
+Appliances,FC_HYD,Hyderabad FC,0.73,High,20.6,3.8,0
+Appliances,FC_KOL,Kolkata FC,0.75,High,17.9,3.4,0
+Fashion,FC_MUM,Mumbai FC,0.67,High,18.0,4.7,0
+Fashion,FC_BLR,Bangalore FC,0.65,High,19.0,4.9,0
+Fashion,FC_DEL,Delhi NCR FC,0.62,High,19.4,5.3,0
+Fashion,FC_HYD,Hyderabad FC,0.65,High,20.1,4.9,0
+Fashion,FC_KOL,Kolkata FC,0.64,High,20.5,5.0,0
+Home & Kitchen,FC_MUM,Mumbai FC,0.56,Medium,19.5,6.1,0
+Home & Kitchen,FC_BLR,Bangalore FC,0.55,Medium,18.1,6.4,0
+Home & Kitchen,FC_DEL,Delhi NCR FC,0.53,Medium,20.4,6.5,0
+Home & Kitchen,FC_HYD,Hyderabad FC,0.53,Medium,20.2,6.6,0
+Home & Kitchen,FC_KOL,Kolkata FC,0.57,Medium,19.3,6.0,0

@@ -1,0 +1,6 @@
+FC_ID,FC_Name,Storage_Capacity,BAU_Utilization_Pct,BBD_Utilization_Pct,BAU_Throughput_Pct,BBD_Throughput_Pct,Capacity_Gap_BBD
+FC_MUM,Mumbai FC,50000,31.4,49.0,10.5,33.5,0
+FC_BLR,Bangalore FC,45000,35.0,52.6,11.7,36.5,0
+FC_DEL,Delhi NCR FC,55000,28.0,42.3,8.5,26.7,0
+FC_HYD,Hyderabad FC,40000,38.2,61.1,12.7,43.6,0
+FC_KOL,Kolkata FC,35000,43.8,68.5,14.6,47.9,0

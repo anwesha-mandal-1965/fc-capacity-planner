@@ -1,0 +1,4 @@
+sku_id,sku_name,category,fc_id,fc_name,current_stock,daily_demand_bau,daily_demand_bbd,days_of_supply,reorder_qty,priority,action
+SKU006,Asus Vivobook,Electronics,FC_HYD,Hyderabad FC,29,2.0,12.6,14.7,12,Monitor,Monitor Stock Levels
+SKU009,OnePlus 12,Electronics,FC_BLR,Bangalore FC,53,3.6,20.0,14.9,21,Monitor,Monitor Stock Levels
+SKU040,Wonderchef Pan,Home & Kitchen,FC_BLR,Bangalore FC,99,6.6,21.6,14.9,40,Monitor,Monitor Stock Levels
